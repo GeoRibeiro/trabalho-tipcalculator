@@ -12,8 +12,8 @@ numberOfPeopleInput.addEventListener("input", )
  function receiveBillValue(){
     bill = billInput.valueAsNumber
 
-    calculate() a paula ta se ferrando aq
-}
+    calculate()
+} 
 
 function receiveNumberOfPeopleValue(){
     numberOfPeople = numberOfPeopleInput.valueAsNumber
@@ -22,6 +22,9 @@ function receiveNumberOfPeopleValue(){
 }
 
 function receiveTipPercentageValue(value){
+    tipPercentage = value / 100
+
+
     buttonSelected = document.querySelector("")
 }
 
